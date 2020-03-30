@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <script>
+
+        function project1() {
+
+            arshak = 33
+            input = prompt("Please input your age below:");
+            result = 0
+
+            if (arshak == input) {
+                result = "you have same age like arshak";
+                alert(result);
+            }
+            else if (arshak >= input) {
+                if (arshak - input >= 10) {
+                    result = "arshak is more than 10 years old";
+                    alert(result);
+                }
+
+                result = "arshak is older than you";
+                alert(result);
+
+            }
+            else if (input > arshak) {
+                result = "you are older than arshak";
+                alert(result);
+            }
+            
+        }
+
+
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+</head>
+
+<body>
+    <h1>For Continue press CLICK! </h1>
+    <a href="#" onclick="project1()" ;>CLICK!</a>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <script>
+        function project3() {
+
+
+            input = prompt("what's your code?");
+
+            persons = new Array(2);
+            persons = ["sadjad", "arshak"];
+            persons[0] = 1
+            persons[1] = 2
+            result = 0
+
+            oddDay = new Array(3);
+            oddDay = ["sunday", "tuesday", "thursday"];
+
+            couplesDay = new Array(4);
+            couplesDay = ["saturday", "monday", "wednesday", "friday"];
+
+            if (input == 1) {
+                result = oddDay
+                alert(oddDay);
+            }
+            else if (input == 2) {
+                result = couplesDay
+                alert(couplesDay);
+            }
+        }
+
+        couplesDay = new Array(5);
+        couplesDay = ["monday", "tuesday", "wednesday", "thursday", "friday"];
+
+        arshakDay = new Array(5);
+        arshakDay = ["true", "false", "true", "false", "true"];
+
+        sadjadDay = new Array(5);
+        sadjadDay = ["false", "true", "false", "true", "false"];
+
+        shifts = new Array(2);
+        shifts = [arshakDay, sadjadDay];
+
+        for (i = 0; i <= couplesDay.length - 1; i++) {
+            console.log(couplesDay[i]);
+
+            for (j = 0; j <= shifts.length - 1; j++) {
+                console.log(shifts[j][i]);
+
+            }
+        }
+
+
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project3</title>
+</head>
+
+<body>
+    <a href="#" onclick="project3()" ;>click here</p>
+</body>
+
+</html>
